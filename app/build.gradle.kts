@@ -7,6 +7,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
     // Google Services para Firebase
     id("com.google.gms.google-services")
+
 }
 
 android {
@@ -76,4 +77,6 @@ dependencies {
     // Core AndroidX
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.activity:activity-compose:1.9.3")
+
+    implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
 }
